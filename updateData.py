@@ -29,7 +29,6 @@ def updateDB():
                 "deaths": int(line[5])}
         count += 1
         dictCovid.append(post)
-        print(count)
     count = 0
     for line in jailLines:
         line=line.split(",")
