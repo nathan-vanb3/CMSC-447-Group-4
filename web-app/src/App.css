@@ -1,0 +1,46 @@
+@import '~antd/dist/antd.css';
+@import '~leaflet/dist/leaflet.css';
+
+#rootGrid {
+  display: grid;
+  grid-template-rows: 5vh 90vh 5vh;
+  grid-template-columns: 10vw 80vw 10vw;
+  place-items: stretch;
+  place-content: stretch;
+}
+
+#dataToggle {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 99;
+}
+
+#datePicker {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  text-align: center;
+
+  z-index: 99;
+}
+
+#mapObject {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+  text-align:center;
+
+  z-index: 0;
+}
+
+.leaflet-container {
+  height: 100vh;
+}
+
+#tooltip {
+
+}
+
