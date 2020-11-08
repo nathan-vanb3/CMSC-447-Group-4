@@ -2,6 +2,7 @@
   "name": "web-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@esri/arcgis-rest-feature-layer": "^2.20.0",
     "@esri/arcgis-rest-request": "^2.20.0",
