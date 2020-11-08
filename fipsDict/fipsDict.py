@@ -1,5 +1,5 @@
 import json
-def getFipsCoordinate(fips): #return fips code
+def getFipsCoordinate(fips): #return coordinates in json format
     geoIdDict={}
     with open("geojson.txt") as f:
         data=json.load(f)
