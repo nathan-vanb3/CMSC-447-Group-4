@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import './App.css';
-import {Switch, DatePicker} from 'antd';
+import {Switch, DatePicker, Statistic} from 'antd';
 import {MapContainer, GeoJSON, LayersControl} from 'react-leaflet';
 import countyBounds from './merged.json';
 import Choropleth from 'react-leaflet-choropleth';
@@ -57,9 +57,9 @@ class Popup extends React.Component {
   render() {
     return(
       <div>
-        <p>{this.props.feature.properties.NAME} {this.props.feature.properties.LSAD}</p>
-        <p>{this.props.feature.properties.deaths}</p>
-        <p>{this.props.feature.properties.cases}</p>
+        <h1>{this.props.feature.properties.NAME} {this.props.feature.properties.LSAD}</h1>
+        <Statistic value={this.props.feature.properties.deaths} title='County Deaths'/>
+        <Statistic value={this.props.feature.properties.cases} title='County Cases'/>
       </div>
     );
   }
@@ -67,17 +67,15 @@ class Popup extends React.Component {
 
 class MapObject extends React.Component {
   getColorDeaths(string) {
-    var colorSpace = chroma.scale(['white', 'red']);
-    var convertedInt = string / 7157;
+    var colorSpace = chroma.scale(['white', 'red']).classes([0, 100, 200, 300, 400, 500, 1000, 2000, 4000, 6000, 8000]);
 
-    return colorSpace(convertedInt).hex();
+    return colorSpace(string).hex();
   }
 
   getColorCases(string) {
-    var colorSpace = chroma.scale(['white', 'blue']);
-    var convertedInt = string / 317727;
+    var colorSpace = chroma.scale(['white', 'blue']).classes([0, 100, 1000, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000]);
 
-    return colorSpace(convertedInt).hex();
+    return colorSpace(string).hex();
   }
 
   casesElement = <GeoJSON data={countyBounds} style={(feature) => {
