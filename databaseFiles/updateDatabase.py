@@ -42,6 +42,7 @@ def updateDB():
     print("Starting counties parsing")
     for line in covidLines:
         line = line.split(",")
+        line = [elem.strip() for elem in line]
         if line[2] == "New York" and line[1] == "New York City" and line[3]=="":
             post = {"_id": count, "date": line[0], "county": line[1], "state": line[2], "FIPS": "00001",
                     "cases": line[4],
