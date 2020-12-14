@@ -6,16 +6,6 @@ import json
 
 app = Flask(__name__)
 
-# Returns single polygon in JSON format by fips
-# def getCoordinateByFips(fips):
-#    geoIdDict={}
-#    with open("geoJSON.txt", encoding='ISO-8859-1') as f:
-#        data = json.load(f)
-#    for x in data["features"]:
-#        geoIdDict[x["properties"]["GEO_ID"][9:]] = json.dumps(x["geometry"])
-#    return geoIdDict[fips]
-
-
 # Pulls data from the MongoDB database based on the county
 def pullCountyData(input_fips):
     client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
@@ -48,7 +38,7 @@ def pullFacilityData(input_facility):
     date = data['date']
     pop_positive = data['Pop Tested Positive']
     pop_deaths = data['Pop Deaths']
-    full_data = {'Canonical Facility Name': facility, 'Pop Tested Positive': pop_positive, 'Pop Deaths': pop_deaths}
+    full_data = {'Canonical Facility Name': facility, 'Pop Tested Positive': pop_positive, 'Pop Deaths': pop_deaths, 'date': date}
     return full_data
 
 @app.route('/county')
@@ -61,27 +51,26 @@ def getCountyData():
     return json.dumps(county_data)
 
 @app.route('/allcountydata')
-# Returns all county case/death data in JSON format
-# Format: [{'fips': fips, 'cases': cases. 'deaths': deaths},...,]
+# Format: [{'FIPS': fips, 'cases': cases. 'deaths': deaths},...,]
 def getAllCountyData():
+    input_date = request.args.get('date')
+    if input_date == None:
+        return "Error: no date entered"
+    
     client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
     db = client["Project_447"]
     collection_covid = db["covid_counties"]
-    stuff = list(collection_covid.find({},{"_id": 0, "FIPS": 1, "cases": 1, "deaths": 1, "date": 1}))
+    county_data = collection_covid.find({"date": input_date},{"_id": 0, "FIPS": 1, "cases": 1, "deaths": 1})
 
-    sorted_by_date = sorted(stuff, key=lambda i:i['date'], reverse=True)
-
-    lookup = []
+    #sorted_by_date = sorted(stuff, key=lambda i:i['date'], reverse=True)
     all_data = []
-    for stat in sorted_by_date:
-        fips = stat["FIPS"]
-        if fips not in lookup:
-            lookup.append(fips)
-            del stat["date"]
-            all_data.append(stat)
-
+    for data in county_data:
+        fips = data['FIPS']
+        cases = data['cases']
+        deaths = data['deaths']
+        full_data = {'FIPS' : fips, 'cases': cases, 'deaths':deaths}
+        all_data.append(full_data)
     return json.dumps(all_data)
-
 
 @app.route('/facility')
 # Returns JSON format data with facility data
@@ -93,33 +82,25 @@ def getFacilityData():
     return json.dumps(facility_data)
 
 @app.route('/allfacilitydata')
+# Format: [{'name': name, 'cases': cases. 'deaths': deaths},...,]
 def getAllFacilityData():
+    input_date = request.args.get('date')
+    if input_date == None:
+        return "Error: no date entered"
+   
     client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
     db = client["Project_447"]
     collection_covid = db["covid_jail"]
-    stuff = list(collection_covid.find({},{"_id": 0, "Canonical Facility Name": 1, "Pop Tested Positive": 1, "Pop Deaths": 1, "date": 1}))
+    jail_data = collection_covid.find({"date": input_date},{"_id": 0, "Canonical Facility Name": 1, "Pop Tested Positive": 1, "Pop Deaths": 1})
 
-    sorted_by_date = sorted(stuff, key=lambda i:i['date'], reverse=True)
-
-    lookup = []
     all_data = []
-    for stat in sorted_by_date:
-        facility = stat["Canonical Facility Name"]
-        if facility not in lookup:
-            lookup.append(facility)
-            del stat["date"]
-            all_data.append(stat)
-
+    for data in jail_data:
+        name = data['Canonical Facility Name']
+        cases = data['Pop Tested Positive']
+        deaths = data['Pop Deaths']
+        full_data = {'name' : name, 'cases': cases, 'deaths':deaths}
+        all_data.append(full_data)
+ 
     return json.dumps(all_data)
-
-# @app.route('/allcoordinates')
-# Returns all county polygons in JSON format
-# def getAllCoordinates():
-#    geoIdDict={}
-#    with open("geoJSON.txt", encoding='ISO-8859-1') as f:
-#        data = json.load(f)
-#    for x in data["features"]:
-#        geoIdDict[x["properties"]["GEO_ID"][9:]] = json.dumps(x["geometry"])
-#    return json.dumps(geoIdDict)
 
 app.run (debug=True)
