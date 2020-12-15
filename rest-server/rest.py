@@ -1,8 +1,8 @@
 from flask import (Flask, render_template)
 from flask import request
+from flask import json
 import pymongo
 from pymongo import MongoClient
-import json
 
 app = Flask(__name__)
 
@@ -23,6 +23,13 @@ def pullCountyData(input_fips):
     
     return full_data
 
+def pullCountyDataTemporal(input_date):
+    client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
+    countydb = client['Project_447']['covid_counties']
+    allCounties = countydb.find({'date': input_date}, {'FIPS': 1, 'cases': 1, 'deaths': 1, '_id': 0})
+    return list(allCounties)
+    
+
 # Pulls data from the MongoDB database based on the facility
 def pullFacilityData(input_facility):
     client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
@@ -41,6 +48,19 @@ def pullFacilityData(input_facility):
     full_data = {'Canonical Facility Name': facility, 'Pop Tested Positive': pop_positive, 'Pop Deaths': pop_deaths, 'date': date}
     return full_data
 
+def getValidDates():
+    client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
+    countydb = client["Project_447"]["covid_counties"]
+    return list(countydb.distinct('date'))
+
+@app.route('/listDates')
+def listDates():
+    data = getValidDates()
+    response = app.response_class(response=json.dumps(data), mimetype='application/json')
+    response.headers.add('Access-Control-Allow-Origin', '*')
+
+    return response
+
 @app.route('/county')
 # Returns JSON format data with county data 
 def getCountyData():
@@ -48,7 +68,7 @@ def getCountyData():
     if fips == None:
         return "Error: no fips entered"
     county_data = pullCountyData(fips)
-    return json.dumps(county_data)
+    return county_data
 
 @app.route('/allcountydata')
 # Format: [{'FIPS': fips, 'cases': cases. 'deaths': deaths},...,]
@@ -71,6 +91,19 @@ def getAllCountyData():
         full_data = {'FIPS' : fips, 'cases': cases, 'deaths':deaths}
         all_data.append(full_data)
     return json.dumps(all_data)
+
+@app.route('/countyDataTemporal')
+def getCountyDataTemporal():
+    date = request.args.get('date')
+    if date == None:
+        return "Error: no date entered"
+
+    data = pullCountyDataTemporal(date)
+    response = app.response_class(response=json.dumps(data), mimetype='application/json')
+    response.headers.add('Access-Control-Allow-Origin', '*')
+
+    return response
+    
 
 @app.route('/facility')
 # Returns JSON format data with facility data

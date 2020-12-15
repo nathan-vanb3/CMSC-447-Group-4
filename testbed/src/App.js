@@ -6,8 +6,9 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import testData from './us_counties_test_style.json';
 import chroma from 'chroma-js';
 import {renderToString} from 'react-dom/server';
-import {Statistic, Radio, DatePicker} from 'antd';
+import {Statistic, Radio, DatePicker, Spin} from 'antd';
 import 'antd/dist/antd.css';
+import axios from 'axios';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibmF0aGExIiwiYSI6ImNraTlkcDFmaDA2d3Qyem14MnAxMmo4YWcifQ.MNUuilLvnxFLCCjcGqI0WQ';
 
@@ -15,25 +16,67 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0');
+    var yyyy = today.getFullYear();
+    today = yyyy + '-' + mm + '-' + dd;
+
     this.state = {
-      dataType: 'cases'
+      dataType: 'cases',
+      date: '2020-12-07',
+      data: null,
+      validDates: null,
+      loading: true
     };
 
     this.toggleData = this.toggleData.bind(this);
+    this.setDate = this.setDate.bind(this);
   }
 
   toggleData(type) {
     this.setState({dataType: type});
   }
 
-  render() {
-    return(
-      <>
-        <CovidMap dataType={this.state.dataType}/>
-        <DataSwitch toggleData={this.toggleData}/>
-        <DateRange/>
-      </>
-    );
+  async setDate(date) {
+    this.setState({loading: true});
+    this.setState({date: date});
+
+    await axios.get('http://localhost:5000/countyDataTemporal?date=' + this.state.date).then((response) => {
+      this.setState({data: response.data});
+      this.setState({loading: false});
+    });
+  }
+
+  data = null;
+
+  async componentDidMount() {
+    await axios.get('http://localhost:5000/countyDataTemporal?date=' + this.state.date).then((response) => {
+      this.setState({data: response.data});
+    });
+
+    await axios.get('http://localhost:5000/listDates').then((response) => {
+      this.setState({validDates: response.data});
+      this.setState({loading: false});
+    });
+  }
+
+   render() {
+    var page = null;
+    this.state.loading 
+      ? page = 
+        <div className='loadingScreen'>
+          <Spin size='large' tip='Loading...'/>
+        </div>
+  
+      : page = 
+        <>
+          <CovidMap dataType={this.state.dataType} data={this.state.data}/>
+          <DataSwitch toggleData={this.toggleData}/>
+          <DateRange setDate={this.setDate} validDates = {this.state.validDates}/>
+        </>
+
+    return(page);
   }
 }
 
@@ -68,10 +111,41 @@ class DataSwitch extends React.Component {
 }
 
 class DateRange extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.validRange = this.validRange.bind(this);
+  }
+
+  onChange = (date, dateString) => {
+    if(dateString === '') {
+      this.props.setDate('2020-12-07');
+    }
+
+    else {
+      this.props.setDate(dateString);
+    }
+    
+    console.log('changed to ' + dateString)
+  }
+
+  validRange = (current) => {
+    var currDate = current.format('YYYY-MM-DD');
+    var valid = true;
+
+    this.props.validDates.forEach((date) => {
+      if(currDate === date) {
+        valid = false;
+      }
+    });
+
+    return valid;
+  }
+
   render() {
     return(
       <div className='datePicker'>
-        <DatePicker/>
+        <DatePicker format='YYYY-MM-DD' onChange={this.onChange} disabledDate={this.validRange}/>
       </div>
     );
   }
@@ -108,7 +182,7 @@ class CovidMap extends React.Component {
     var cases = null;
     var deaths = null;
 
-    testData.forEach((row) => {
+    this.props.data.forEach((row) => {
       if(row['FIPS'] === e.features[0].properties.FIPS) {
         cases = row['cases'];
         deaths = row['deaths'];
@@ -192,7 +266,7 @@ class CovidMap extends React.Component {
       iterOperation = (row) => {colorExpression.push(row['FIPS'], this.deathsScale(row[this.props.dataType]).hex());}
     }
 
-    testData.forEach(iterOperation);
+    this.props.data.forEach(iterOperation);
 
     colorExpression.push('rgba(0,0,0,0)');
 
