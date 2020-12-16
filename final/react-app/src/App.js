@@ -5,7 +5,7 @@ import ReactMapboxGl, {Layer, Source} from 'react-mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import chroma from 'chroma-js';
 import {renderToString} from 'react-dom/server';
-import {Statistic, Radio, DatePicker, Spin} from 'antd';
+import {Statistic, Radio, DatePicker, Spin, Alert} from 'antd';
 import 'antd/dist/antd.css';
 import axios from 'axios';
 
@@ -28,7 +28,8 @@ class App extends React.Component {
       countyData: null,
       facilityData: null,
       validDates: null,
-      loading: true
+      loading: true,
+      failed: false
     };
 
     this.toggleData = this.toggleData.bind(this);
@@ -48,38 +49,74 @@ class App extends React.Component {
     this.setState({loading: true});
     this.setState({date: date});
 
-    await axios.get('/countyDataTemporal?date=' + this.state.date).then((response) => {
+    await axios
+      .get('/countyDataTemporal?date=' + this.state.date)
+      .then((response) => {
       this.setState({countyData: response.data});
-    });
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({failed: true});
+      });
 
-    await axios.get('/facilityDataTemporal?date=' + this.state.date).then((response) => {
+    await axios
+      .get('/facilityDataTemporal?date=' + this.state.date)
+      .then((response) => {
       this.setState({facilityData: response.data});
       this.setState({loading: false});
-    });
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({failed: true});
+      });
   }
 
   async componentDidMount() {
-    await axios.get('/countyDataTemporal?date=' + this.state.date).then((response) => {
+    await axios
+      .get('/countyDataTemporal?date=' + this.state.date)
+      .then((response) => {
       this.setState({countyData: response.data});
-    });
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({failed: true});
+      });
 
-    await axios.get('/facilityDataTemporal?date=' + this.state.date).then((response) => {
+    await axios
+      .get('/facilityDataTemporal?date=' + this.state.date)
+      .then((response) => {
       this.setState({facilityData: response.data});
-    });
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({failed: true});
+      });
 
-    await axios.get('/listDates').then((response) => {
+    await axios
+      .get('/listDates')
+      .then((response) => {
       this.setState({validDates: response.data});
       this.setState({loading: false});
-    });
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({failed: true});
+      });
   }
 
    render() {
     var page = null;
     this.state.loading 
-      ? page = 
-        <div className='loadingScreen'>
-          <Spin size='large' tip='Loading...'/>
-        </div>
+      ? this.state.failed 
+        ? page = 
+          <div className='loadingScreen'>
+            <Spin size='large' tip='Loading...'/>
+          </div>
+
+        : page = 
+          <div className='loadingScreen'>
+            <Alert message='Failed to load content. Please refresh the page.' type='error' showIcon/>
+          </div>
   
       : page = 
         <>
