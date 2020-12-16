@@ -5,7 +5,7 @@ import ReactMapboxGl, {Layer, Source} from 'react-mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import chroma from 'chroma-js';
 import {renderToString} from 'react-dom/server';
-import {Statistic, Radio, DatePicker, Spin, Alert} from 'antd';
+import {Statistic, Radio, DatePicker, Spin} from 'antd';
 import 'antd/dist/antd.css';
 import axios from 'axios';
 
@@ -56,7 +56,6 @@ class App extends React.Component {
       })
       .catch((error) => {
         console.log(error);
-        this.setState({failed: true});
       });
 
     await axios
@@ -67,7 +66,6 @@ class App extends React.Component {
       })
       .catch((error) => {
         console.log(error);
-        this.setState({failed: true});
       });
   }
 
@@ -79,7 +77,6 @@ class App extends React.Component {
       })
       .catch((error) => {
         console.log(error);
-        this.setState({failed: true});
       });
 
     await axios
@@ -89,7 +86,6 @@ class App extends React.Component {
       })
       .catch((error) => {
         console.log(error);
-        this.setState({failed: true});
       });
 
     await axios
@@ -107,17 +103,11 @@ class App extends React.Component {
    render() {
     var page = null;
     this.state.loading 
-      ? this.state.failed 
-        ? page = 
+      ? page = 
           <div className='loadingScreen'>
             <Spin size='large' tip='Loading...'/>
           </div>
 
-        : page = 
-          <div className='loadingScreen'>
-            <Alert message='Failed to load content. Please refresh the page.' type='error' showIcon/>
-          </div>
-  
       : page = 
         <>
           <CovidMap dataType={this.state.dataType} countyData={this.state.countyData} facilityData={this.state.facilityData} layerType={this.state.layerType}/>
