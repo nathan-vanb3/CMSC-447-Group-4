@@ -48,6 +48,36 @@ def pullFacilityData(input_facility):
     full_data = {'Canonical Facility Name': facility, 'Pop Tested Positive': pop_positive, 'Pop Deaths': pop_deaths, 'date': date}
     return full_data
 
+def pullFacilityDataTemporal(input_date):
+    client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
+    facilitydb = client['Project_447']['covid_jail']
+
+    pipeline = [
+        {
+            '$group': {
+                '_id': {'date': '$date', 'Canonical Facility Name': '$Canonical Facility Name'},
+                'name': {'$first': "$Canonical Facility Name"},
+                'cases': {'$sum': '$Pop Tested Positive'},
+                'deaths': {'$sum': '$Pop Deaths'},
+                'date': {'$first': '$date'}
+            }
+        },
+        {
+             '$match': {
+                'date': input_date
+            }
+        },
+        {
+             '$project': {
+                '_id': 0,
+                'date': 0
+            }
+        }
+    ]
+
+    allFacilities = facilitydb.aggregate(pipeline)
+    return list(allFacilities)
+
 def getValidDates():
     client = MongoClient('mongodb://databaseUser:CMSC447@cluster0-shard-00-00.jy5gc.mongodb.net:27017,cluster0-shard-00-01.jy5gc.mongodb.net:27017,cluster0-shard-00-02.jy5gc.mongodb.net:27017/<covid>?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-4e1z3x-shard-0&authSource=admin&retryWrites=true&w=majority')
     countydb = client["Project_447"]["covid_counties"]
@@ -104,6 +134,17 @@ def getCountyDataTemporal():
 
     return response
     
+@app.route('/facilityDataTemporal')
+def getFacilityDataTemporal():
+    date = request.args.get('date')
+    if date == None:
+        return "Error: no date entered"
+
+    data = pullFacilityDataTemporal(date)
+    response = app.response_class(response=json.dumps(data), mimetype='application/json')
+    response.headers.add('Access-Control-Allow-Origin', '*')
+
+    return response
 
 @app.route('/facility')
 # Returns JSON format data with facility data

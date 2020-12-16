@@ -1,0 +1,1642 @@
+[
+{ 
+    "Canonical Facility Name" : "Dooly State Prison", 
+    "Latitude" : "32.24473", 
+    "Longitude" : "-83.72075"
+},
+{ 
+    "Canonical Facility Name" : "California Correctional Center (CCC)", 
+    "Latitude" : "40.446063", 
+    "Longitude" : "-120.664132"
+},
+{ 
+    "Canonical Facility Name" : "Albemarle Correctional Institution", 
+    "Latitude" : "35.463024", 
+    "Longitude" : "-80.1649"
+},
+{ 
+    "Canonical Facility Name" : "New Castle Correctional Facility", 
+    "Latitude" : "39.92698", 
+    "Longitude" : "-85.3697"
+},
+{ 
+    "Canonical Facility Name" : "Mount Olive Correctional Complex", 
+    "Latitude" : "38.041293", 
+    "Longitude" : "-81.064784"
+},
+{ 
+    "Canonical Facility Name" : "Mountain View Unit", 
+    "Latitude" : "31.43211", 
+    "Longitude" : "-97.72602"
+},
+{ 
+    "Canonical Facility Name" : "Kern Valley State Prison (KVSP)", 
+    "Latitude" : "35.771876", 
+    "Longitude" : "-119.26984"
+},
+{ 
+    "Canonical Facility Name" : "Green River Correctional Complex", 
+    "Latitude" : "37.299591", 
+    "Longitude" : "-87.12992"
+},
+{ 
+    "Canonical Facility Name" : "Roswell Correctional Center", 
+    "Latitude" : "33.060827", 
+    "Longitude" : "-104.33708"
+},
+{ 
+    "Canonical Facility Name" : "Dawson County Correctional Facility", 
+    "Latitude" : "47.107345", 
+    "Longitude" : "-104.72683"
+},
+{ 
+    "Canonical Facility Name" : "Felmers O. Chaney Correctional Center", 
+    "Latitude" : "43.068962", 
+    "Longitude" : "-87.97423"
+},
+{ 
+    "Canonical Facility Name" : "Lincoln Correctional Center", 
+    "Latitude" : "35.473447", 
+    "Longitude" : "-81.24094"
+},
+{ 
+    "Canonical Facility Name" : "David Wade Correctional Center", 
+    "Latitude" : "32.78288", 
+    "Longitude" : "-93.03176"
+},
+{ 
+    "Canonical Facility Name" : "Manson Youth Institution", 
+    "Latitude" : "41.507049", 
+    "Longitude" : "-72.90489"
+},
+{ 
+    "Canonical Facility Name" : "Ware State Prison", 
+    "Latitude" : "31.205194", 
+    "Longitude" : "-82.37534"
+},
+{ 
+    "Canonical Facility Name" : "Rufe Jordan Unit", 
+    "Latitude" : "35.533093", 
+    "Longitude" : "-100.96041"
+},
+{ 
+    "Canonical Facility Name" : "Carteret Correctional Center", 
+    "Latitude" : "34.770681", 
+    "Longitude" : "-76.87786"
+},
+{ 
+    "Canonical Facility Name" : "Hospital Galveston", 
+    "Latitude" : "29.330501", 
+    "Longitude" : "-94.800238"
+},
+{ 
+    "Canonical Facility Name" : "South Mississippi Correctional Institution", 
+    "Latitude" : "31.162188", 
+    "Longitude" : "-88.60093"
+},
+{ 
+    "Canonical Facility Name" : "Garner Correctional Institution", 
+    "Latitude" : "41.398462", 
+    "Longitude" : "-73.31474"
+},
+{ 
+    "Canonical Facility Name" : "Skyview Unit", 
+    "Latitude" : "31.79364", 
+    "Longitude" : "-95.16761"
+},
+{ 
+    "Canonical Facility Name" : "Kenosha Correctional Center", 
+    "Latitude" : "42.56427", 
+    "Longitude" : "-87.83043"
+},
+{ 
+    "Canonical Facility Name" : "Western Kentucky Correctional Complex", 
+    "Latitude" : "37.216778", 
+    "Longitude" : "-88.01438"
+},
+{ 
+    "Canonical Facility Name" : "Stateville Correctional Center", 
+    "Latitude" : "41.52543", 
+    "Longitude" : "-88.084208"
+},
+{ 
+    "Canonical Facility Name" : "Plainfield Correctional Facility", 
+    "Latitude" : "39.69775", 
+    "Longitude" : "-86.39589"
+},
+{ 
+    "Canonical Facility Name" : "Northeast Correctional Complex", 
+    "Latitude" : "36.451041", 
+    "Longitude" : "-81.81906"
+},
+{ 
+    "Canonical Facility Name" : "Virginia Correctional Center for Women", 
+    "Latitude" : "37.69536", 
+    "Longitude" : "-77.99793"
+},
+{ 
+    "Canonical Facility Name" : "Dalhart Unit", 
+    "Latitude" : "36.090281", 
+    "Longitude" : "-102.60769"
+},
+{ 
+    "Canonical Facility Name" : "Lumberton Correctional Institution", 
+    "Latitude" : "34.607669", 
+    "Longitude" : "-79.014425"
+},
+{ 
+    "Canonical Facility Name" : "Dorsey Run Correctional Facility", 
+    "Latitude" : "39.144807", 
+    "Longitude" : "-76.78767"
+},
+{ 
+    "Canonical Facility Name" : "Goose Creek Correctional Center", 
+    "Latitude" : "61.580187", 
+    "Longitude" : "-149.48821"
+},
+{ 
+    "Canonical Facility Name" : "Sierra Conservation Center (SCC)", 
+    "Latitude" : "37.867243", 
+    "Longitude" : "-120.49157"
+},
+{ 
+    "Canonical Facility Name" : "Deerfield Correctional Center", 
+    "Latitude" : "36.724498", 
+    "Longitude" : "-77.21893"
+},
+{ 
+    "Canonical Facility Name" : "Cheshire Correctional Institution", 
+    "Latitude" : "41.507049", 
+    "Longitude" : "-72.90489"
+},
+{ 
+    "Canonical Facility Name" : "Morrison Correctional Institution", 
+    "Latitude" : "35.042172", 
+    "Longitude" : "-79.53503"
+},
+{ 
+    "Canonical Facility Name" : "Alexander Correctional Institution", 
+    "Latitude" : "35.914275", 
+    "Longitude" : "-81.2083"
+},
+{ 
+    "Canonical Facility Name" : "Cummins Unit", 
+    "Latitude" : "34.004537", 
+    "Longitude" : "-91.5784"
+},
+{ 
+    "Canonical Facility Name" : "Goodman Correctional Institution", 
+    "Latitude" : "34.041646", 
+    "Longitude" : "-81.10624"
+},
+{ 
+    "Canonical Facility Name" : "Wilcox State Prison", 
+    "Latitude" : "31.972625999999998", 
+    "Longitude" : "-83.33082"
+},
+{ 
+    "Canonical Facility Name" : "Maryland Correctional Training Center", 
+    "Latitude" : "39.563787", 
+    "Longitude" : "-77.720642"
+},
+{ 
+    "Canonical Facility Name" : "Pamlico Correctional Institution", 
+    "Latitude" : "35.176466", 
+    "Longitude" : "-76.71853"
+},
+{ 
+    "Canonical Facility Name" : "Haynesville Correctional Center", 
+    "Latitude" : "37.950511", 
+    "Longitude" : "-76.636722"
+},
+{ 
+    "Canonical Facility Name" : "Sanford Correctional Center", 
+    "Latitude" : "35.458804", 
+    "Longitude" : "-79.16415"
+},
+{ 
+    "Canonical Facility Name" : "Ventress Correctional Facility", 
+    "Latitude" : "31.843675", 
+    "Longitude" : "-85.43298"
+},
+{ 
+    "Canonical Facility Name" : "Northern Correctional Institution", 
+    "Latitude" : "41.995851", 
+    "Longitude" : "-72.45336"
+},
+{ 
+    "Canonical Facility Name" : "Five Points Correctional Facility", 
+    "Latitude" : "42.75147", 
+    "Longitude" : "-76.85353"
+},
+{ 
+    "Canonical Facility Name" : "Kettle Moraine Correctional Institution", 
+    "Latitude" : "43.758674", 
+    "Longitude" : "-87.98005"
+},
+{ 
+    "Canonical Facility Name" : "Bridgewater State Hospital", 
+    "Latitude" : "41.979501", 
+    "Longitude" : "-70.97215"
+},
+{ 
+    "Canonical Facility Name" : "Clemens Unit", 
+    "Latitude" : "29.011241", 
+    "Longitude" : "-95.58071"
+},
+{ 
+    "Canonical Facility Name" : "Nottoway Correctional Center", 
+    "Latitude" : "37.191053", 
+    "Longitude" : "-78.2117"
+},
+{ 
+    "Canonical Facility Name" : "Beauford H. Jester IV Unit", 
+    "Latitude" : "29.50401", 
+    "Longitude" : "-95.919107"
+},
+{ 
+    "Canonical Facility Name" : "Craggy Correctional Center", 
+    "Latitude" : "35.635844", 
+    "Longitude" : "-82.55992"
+},
+{ 
+    "Canonical Facility Name" : "Warren Correctional Institution", 
+    "Latitude" : "36.484233", 
+    "Longitude" : "-78.30615"
+},
+{ 
+    "Canonical Facility Name" : "Ruben M. Torres Unit", 
+    "Latitude" : "29.379516", 
+    "Longitude" : "-99.12665"
+},
+{ 
+    "Canonical Facility Name" : "Eastern Pre-Release Unit", 
+    "Latitude" : "39.123235", 
+    "Longitude" : "-75.96707"
+},
+{ 
+    "Canonical Facility Name" : "Folsom State Prison (FSP)", 
+    "Latitude" : "38.377411", 
+    "Longitude" : "-121.444429"
+},
+{ 
+    "Canonical Facility Name" : "Indiana Women's Prison", 
+    "Latitude" : "39.792993", 
+    "Longitude" : "-86.28575"
+},
+{ 
+    "Canonical Facility Name" : "Calipatria State Prison (CAL)", 
+    "Latitude" : "33.131764", 
+    "Longitude" : "-115.51208"
+},
+{ 
+    "Canonical Facility Name" : "Lemuel Shattuck Hospital Correctional Unit", 
+    "Latitude" : "42.309998", 
+    "Longitude" : "-71.11171"
+},
+{ 
+    "Canonical Facility Name" : "Huttonsville Correctional Center", 
+    "Latitude" : "38.671662", 
+    "Longitude" : "-79.98029"
+},
+{ 
+    "Canonical Facility Name" : "Scotland Correctional Institution", 
+    "Latitude" : "34.781768", 
+    "Longitude" : "-79.482423"
+},
+{ 
+    "Canonical Facility Name" : "South Woods State Prison", 
+    "Latitude" : "39.445164", 
+    "Longitude" : "-75.24215"
+},
+{ 
+    "Canonical Facility Name" : "Pelican Bay State Prison (PBSP)", 
+    "Latitude" : "41.782681", 
+    "Longitude" : "-124.16703"
+},
+{ 
+    "Canonical Facility Name" : "Bullock Correctional Facility", 
+    "Latitude" : "32.145437", 
+    "Longitude" : "-85.70998"
+},
+{ 
+    "Canonical Facility Name" : "Valley State Prison (VSP)", 
+    "Latitude" : "37.100417", 
+    "Longitude" : "-120.27864"
+},
+{ 
+    "Canonical Facility Name" : "Whitworth Women's Facility", 
+    "Latitude" : "34.366948", 
+    "Longitude" : "-82.9201"
+},
+{ 
+    "Canonical Facility Name" : "Thomas Goree Unit", 
+    "Latitude" : "30.78128", 
+    "Longitude" : "-95.59527"
+},
+{ 
+    "Canonical Facility Name" : "Pasquotank Correctional Institution", 
+    "Latitude" : "36.285388", 
+    "Longitude" : "-76.213284"
+},
+{ 
+    "Canonical Facility Name" : "Hancock State Prison", 
+    "Latitude" : "33.260235", 
+    "Longitude" : "-83.00647"
+},
+{ 
+    "Canonical Facility Name" : "Caledonia Correctional Institution", 
+    "Latitude" : "35.94178", 
+    "Longitude" : "-78.11872"
+},
+{ 
+    "Canonical Facility Name" : "Adult Diagnostic and Treatment Center", 
+    "Latitude" : "40.578996", 
+    "Longitude" : "-74.27987"
+},
+{ 
+    "Canonical Facility Name" : "Danville Correctional Center", 
+    "Latitude" : "40.175463", 
+    "Longitude" : "-87.6124"
+},
+{ 
+    "Canonical Facility Name" : "Piedmont Correctional Institution", 
+    "Latitude" : "35.665362", 
+    "Longitude" : "-80.54673"
+},
+{ 
+    "Canonical Facility Name" : "Red Eagle Honor Farm", 
+    "Latitude" : "32.426372", 
+    "Longitude" : "-86.27007"
+},
+{ 
+    "Canonical Facility Name" : "Washington State Penitentiary", 
+    "Latitude" : "45.986775", 
+    "Longitude" : "-118.07919"
+},
+{ 
+    "Canonical Facility Name" : "Stafford Creek Corrections Center", 
+    "Latitude" : "46.972965", 
+    "Longitude" : "-123.81923"
+},
+{ 
+    "Canonical Facility Name" : "O.L. Luther Unit", 
+    "Latitude" : "30.374501", 
+    "Longitude" : "-96.07999"
+},
+{ 
+    "Canonical Facility Name" : "Brunswick Work Center", 
+    "Latitude" : "36.722176", 
+    "Longitude" : "-77.81269"
+},
+{ 
+    "Canonical Facility Name" : "Westville Correctional Facility", 
+    "Latitude" : "41.550192", 
+    "Longitude" : "-86.91068"
+},
+{ 
+    "Canonical Facility Name" : "Avenal State Prison (ASP)", 
+    "Latitude" : "35.930766", 
+    "Longitude" : "-120.10057"
+},
+{ 
+    "Canonical Facility Name" : "Coastal State Prison", 
+    "Latitude" : "31.971394", 
+    "Longitude" : "-81.07156"
+},
+{ 
+    "Canonical Facility Name" : "Deuel Vocational Institution (DVI)", 
+    "Latitude" : "37.728417", 
+    "Longitude" : "-121.42399"
+},
+{ 
+    "Canonical Facility Name" : "Coffeewood Correctional Center", 
+    "Latitude" : "38.373645", 
+    "Longitude" : "-78.0165"
+},
+{ 
+    "Canonical Facility Name" : "North Central Correctional Complex", 
+    "Latitude" : "40.589747", 
+    "Longitude" : "-83.12173"
+},
+{ 
+    "Canonical Facility Name" : "New Hanover Correctional Center", 
+    "Latitude" : "34.340518", 
+    "Longitude" : "-77.901408"
+},
+{ 
+    "Canonical Facility Name" : "Wheeler Correctional Facility", 
+    "Latitude" : "32.146031", 
+    "Longitude" : "-82.792"
+},
+{ 
+    "Canonical Facility Name" : "Clarinda Correctional Facility", 
+    "Latitude" : "40.738639", 
+    "Longitude" : "-95.03595"
+},
+{ 
+    "Canonical Facility Name" : "Randolph Correctional Center", 
+    "Latitude" : "35.686122", 
+    "Longitude" : "-79.82919"
+},
+{ 
+    "Canonical Facility Name" : "Caldwell Correctional Center", 
+    "Latitude" : "35.934783", 
+    "Longitude" : "-81.54476"
+},
+{ 
+    "Canonical Facility Name" : "Correctional Industrial Facility", 
+    "Latitude" : "39.997694", 
+    "Longitude" : "-85.75075"
+},
+{ 
+    "Canonical Facility Name" : "Kentucky State Reformatory", 
+    "Latitude" : "38.40464", 
+    "Longitude" : "-85.460504"
+},
+{ 
+    "Canonical Facility Name" : "Hartford Correctional Center", 
+    "Latitude" : "41.784794", 
+    "Longitude" : "-72.67378"
+},
+{ 
+    "Canonical Facility Name" : "Coyote Ridge Corrections Center", 
+    "Latitude" : "46.675704", 
+    "Longitude" : "-118.8823"
+},
+{ 
+    "Canonical Facility Name" : "Chuckawalla Valley State Prison (CVSP)", 
+    "Latitude" : "33.628333", 
+    "Longitude" : "-114.61905"
+},
+{ 
+    "Canonical Facility Name" : "Dakota Women's Correctional and Rehabilitation Center", 
+    "Latitude" : "46.511555", 
+    "Longitude" : "-102.8735"
+},
+{ 
+    "Canonical Facility Name" : "Wake Correctional Center", 
+    "Latitude" : "35.767829", 
+    "Longitude" : "-78.5861"
+},
+{ 
+    "Canonical Facility Name" : "California Rehabilitation Center (CRC)", 
+    "Latitude" : "33.925885", 
+    "Longitude" : "-117.55978"
+},
+{ 
+    "Canonical Facility Name" : "Augusta State Medical Prison", 
+    "Latitude" : "33.459489", 
+    "Longitude" : "-82.20102"
+},
+{ 
+    "Canonical Facility Name" : "Miami Correctional Facility", 
+    "Latitude" : "40.646736", 
+    "Longitude" : "-86.09952"
+},
+{ 
+    "Canonical Facility Name" : "Lee Adjustment Center", 
+    "Latitude" : "37.578547", 
+    "Longitude" : "-83.70348"
+},
+{ 
+    "Canonical Facility Name" : "River North Correctional Center", 
+    "Latitude" : "36.626454", 
+    "Longitude" : "-81.16554"
+},
+{ 
+    "Canonical Facility Name" : "Gib Lewis Unit", 
+    "Latitude" : "30.792674", 
+    "Longitude" : "-94.354476"
+},
+{ 
+    "Canonical Facility Name" : "East Jersey State Prison", 
+    "Latitude" : "40.607103", 
+    "Longitude" : "-74.28099"
+},
+{ 
+    "Canonical Facility Name" : "Mohawk Correctional Facility", 
+    "Latitude" : "43.217069", 
+    "Longitude" : "-75.45531"
+},
+{ 
+    "Canonical Facility Name" : "Wilkinson County Correctional Center", 
+    "Latitude" : "31.120979", 
+    "Longitude" : "-91.35511"
+},
+{ 
+    "Canonical Facility Name" : "Rufus H. Duncan Geriatric Facility", 
+    "Latitude" : "31.195633", 
+    "Longitude" : "-94.77725"
+},
+{ 
+    "Canonical Facility Name" : "Clallam Bay Corrections Center", 
+    "Latitude" : "48.181608", 
+    "Longitude" : "-124.41188"
+},
+{ 
+    "Canonical Facility Name" : "Davidson Correctional Center", 
+    "Latitude" : "35.775789", 
+    "Longitude" : "-80.23174"
+},
+{ 
+    "Canonical Facility Name" : "Camden Work Release Center", 
+    "Latitude" : "32.008444", 
+    "Longitude" : "-87.25911"
+},
+{ 
+    "Canonical Facility Name" : "Mabel Bassett Correctional Center", 
+    "Latitude" : "35.4122", 
+    "Longitude" : "-97.0984"
+},
+{ 
+    "Canonical Facility Name" : "Staton Correctional Facility", 
+    "Latitude" : "32.538878", 
+    "Longitude" : "-86.33358"
+},
+{ 
+    "Canonical Facility Name" : "Forsyth Correctional Center", 
+    "Latitude" : "36.147887", 
+    "Longitude" : "-80.23423"
+},
+{ 
+    "Canonical Facility Name" : "Menard Correctional Center", 
+    "Latitude" : "38.013132", 
+    "Longitude" : "-89.899569"
+},
+{ 
+    "Canonical Facility Name" : "Wayne Scott Unit", 
+    "Latitude" : "29.16866", 
+    "Longitude" : "-95.44541"
+},
+{ 
+    "Canonical Facility Name" : "East Texas Multi-Use Facility", 
+    "Latitude" : "32.194938", 
+    "Longitude" : "-94.75852"
+},
+{ 
+    "Canonical Facility Name" : "Pruntytown Correctional Center", 
+    "Latitude" : "39.343418", 
+    "Longitude" : "-80.02665"
+},
+{ 
+    "Canonical Facility Name" : "William G. McConnell Unit", 
+    "Latitude" : "28.426202", 
+    "Longitude" : "-97.74806"
+},
+{ 
+    "Canonical Facility Name" : "Iowa Medical and Classification Center", 
+    "Latitude" : "41.688215", 
+    "Longitude" : "-91.58676"
+},
+{ 
+    "Canonical Facility Name" : "Mark W. Stiles Unit", 
+    "Latitude" : "30.009609", 
+    "Longitude" : "-94.11401"
+},
+{ 
+    "Canonical Facility Name" : "Washington Corrections Center", 
+    "Latitude" : "47.224044", 
+    "Longitude" : "-123.10538"
+},
+{ 
+    "Canonical Facility Name" : "Pendleton Correctional Facility", 
+    "Latitude" : "39.997694", 
+    "Longitude" : "-85.75075"
+},
+{ 
+    "Canonical Facility Name" : "Souza-Baranowski Correctional Center", 
+    "Latitude" : "42.559289", 
+    "Longitude" : "-71.64555"
+},
+{ 
+    "Canonical Facility Name" : "Northern State Prison", 
+    "Latitude" : "40.707553", 
+    "Longitude" : "-74.17883"
+},
+{ 
+    "Canonical Facility Name" : "North Dakota Youth Correctional Center", 
+    "Latitude" : "46.812148", 
+    "Longitude" : "-100.90891"
+},
+{ 
+    "Canonical Facility Name" : "Allan B. Polunsky Unit", 
+    "Latitude" : "30.712538", 
+    "Longitude" : "-94.89915"
+},
+{ 
+    "Canonical Facility Name" : "Marshall County Correctional Facility", 
+    "Latitude" : "34.74504", 
+    "Longitude" : "-89.484963"
+},
+{ 
+    "Canonical Facility Name" : "Baltimore Pre-Release Unit", 
+    "Latitude" : "39.296507", 
+    "Longitude" : "-76.60693"
+},
+{ 
+    "Canonical Facility Name" : "Northern Correctional Facility", 
+    "Latitude" : "39.912923", 
+    "Longitude" : "-80.73701"
+},
+{ 
+    "Canonical Facility Name" : "Graham Correctional Center", 
+    "Latitude" : "39.146809", 
+    "Longitude" : "-89.48442"
+},
+{ 
+    "Canonical Facility Name" : "Travis County State Jail", 
+    "Latitude" : "30.294148", 
+    "Longitude" : "-97.62863"
+},
+{ 
+    "Canonical Facility Name" : "Richard P. LeBlanc Unit", 
+    "Latitude" : "30.009609", 
+    "Longitude" : "-94.11401"
+},
+{ 
+    "Canonical Facility Name" : "Eastern Correctional Institution", 
+    "Latitude" : "35.481503", 
+    "Longitude" : "-77.58718"
+},
+{ 
+    "Canonical Facility Name" : "Branchville Correctional Facility", 
+    "Latitude" : "38.137325", 
+    "Longitude" : "-86.58477"
+},
+{ 
+    "Canonical Facility Name" : "Roxbury Correctional Institution", 
+    "Latitude" : "39.563787", 
+    "Longitude" : "-77.720642"
+},
+{ 
+    "Canonical Facility Name" : "Clarence N. Stevenson Unit", 
+    "Latitude" : "29.09649", 
+    "Longitude" : "-97.28798"
+},
+{ 
+    "Canonical Facility Name" : "Central Virginia Correctional Unit #13", 
+    "Latitude" : "37.405699", 
+    "Longitude" : "-77.5838"
+},
+{ 
+    "Canonical Facility Name" : "Garden State Youth Correctional Facility", 
+    "Latitude" : "40.17296", 
+    "Longitude" : "-74.66915"
+},
+{ 
+    "Canonical Facility Name" : "Montgomery Women's Facility", 
+    "Latitude" : "32.373714", 
+    "Longitude" : "-86.16443"
+},
+{ 
+    "Canonical Facility Name" : "Jessup Correctional Institution", 
+    "Latitude" : "39.144807", 
+    "Longitude" : "-76.78767"
+},
+{ 
+    "Canonical Facility Name" : "South Dakota Women's Prison", 
+    "Latitude" : "44.425356", 
+    "Longitude" : "-100.29145"
+},
+{ 
+    "Canonical Facility Name" : "Ellsworth Correctional Facility", 
+    "Latitude" : "38.744056", 
+    "Longitude" : "-98.22729"
+},
+{ 
+    "Canonical Facility Name" : "Hutchinson Correctional Facility", 
+    "Latitude" : "38.034292", 
+    "Longitude" : "-97.92382"
+},
+{ 
+    "Canonical Facility Name" : "Neuse Correctional Institution", 
+    "Latitude" : "35.384344", 
+    "Longitude" : "-78.00893"
+},
+{ 
+    "Canonical Facility Name" : "Winfield Correctional Facility", 
+    "Latitude" : "37.256575", 
+    "Longitude" : "-96.97885"
+},
+{ 
+    "Canonical Facility Name" : "Monroe Correctional Complex", 
+    "Latitude" : "47.860245", 
+    "Longitude" : "-121.93734"
+},
+{ 
+    "Canonical Facility Name" : "Southern Correctional Institution", 
+    "Latitude" : "35.382213", 
+    "Longitude" : "-79.92418"
+},
+{ 
+    "Canonical Facility Name" : "Ironwood State Prison (ISP)", 
+    "Latitude" : "33.628333", 
+    "Longitude" : "-114.61905"
+},
+{ 
+    "Canonical Facility Name" : "Fluvanna Correctional Center for Women", 
+    "Latitude" : "37.959376", 
+    "Longitude" : "-78.26353"
+},
+{ 
+    "Canonical Facility Name" : "Wyoming Women's Center", 
+    "Latitude" : "43.034269", 
+    "Longitude" : "-104.35784"
+},
+{ 
+    "Canonical Facility Name" : "Johnston Correctional Institution", 
+    "Latitude" : "35.506459", 
+    "Longitude" : "-78.34446"
+},
+{ 
+    "Canonical Facility Name" : "Madison Correctional Facility", 
+    "Latitude" : "38.787175", 
+    "Longitude" : "-85.38031"
+},
+{ 
+    "Canonical Facility Name" : "Georgia State Prison", 
+    "Latitude" : "32.057356", 
+    "Longitude" : "-82.1214"
+},
+{ 
+    "Canonical Facility Name" : "L.V. Hightower Unit", 
+    "Latitude" : "30.044219", 
+    "Longitude" : "-94.88864"
+},
+{ 
+    "Canonical Facility Name" : "Swannanoa Correctional Center for Women", 
+    "Latitude" : "35.605146", 
+    "Longitude" : "-82.31665"
+},
+{ 
+    "Canonical Facility Name" : "Willard-Cybulski Correctional Institution", 
+    "Latitude" : "41.987238", 
+    "Longitude" : "-72.56365"
+},
+{ 
+    "Canonical Facility Name" : "Bayside State Prison", 
+    "Latitude" : "39.254836", 
+    "Longitude" : "-74.97767"
+},
+{ 
+    "Canonical Facility Name" : "Draper Correctional Facility", 
+    "Latitude" : "32.538878", 
+    "Longitude" : "-86.33358"
+},
+{ 
+    "Canonical Facility Name" : "Topeka Correctional Facility", 
+    "Latitude" : "39.044056", 
+    "Longitude" : "-95.64804"
+},
+{ 
+    "Canonical Facility Name" : "Baltimore Central Booking and Intake Center", 
+    "Latitude" : "39.296507", 
+    "Longitude" : "-76.60693"
+},
+{ 
+    "Canonical Facility Name" : "Johnson State Prison", 
+    "Latitude" : "32.71732", 
+    "Longitude" : "-82.68926"
+},
+{ 
+    "Canonical Facility Name" : "Hutchins State Jail", 
+    "Latitude" : "32.669383", 
+    "Longitude" : "-96.77439"
+},
+{ 
+    "Canonical Facility Name" : "Mountainview Youth Correctional Facility", 
+    "Latitude" : "40.624538", 
+    "Longitude" : "-74.89118"
+},
+{ 
+    "Canonical Facility Name" : "Blackburn Correctional Complex", 
+    "Latitude" : "38.105283", 
+    "Longitude" : "-84.50775"
+},
+{ 
+    "Canonical Facility Name" : "Putnamville Correctional Facility", 
+    "Latitude" : "39.652374", 
+    "Longitude" : "-86.87361"
+},
+{ 
+    "Canonical Facility Name" : "Mark W. Michael Unit", 
+    "Latitude" : "31.794191", 
+    "Longitude" : "-95.661964"
+},
+{ 
+    "Canonical Facility Name" : "Avoyelles Correctional Center", 
+    "Latitude" : "30.98676", 
+    "Longitude" : "-92.04319"
+},
+{ 
+    "Canonical Facility Name" : "Wallace Pack Unit", 
+    "Latitude" : "30.374501", 
+    "Longitude" : "-96.07999"
+},
+{ 
+    "Canonical Facility Name" : "Riverbend Correctional Facility", 
+    "Latitude" : "33.083579", 
+    "Longitude" : "-83.23397"
+},
+{ 
+    "Canonical Facility Name" : "Craven Correctional Institution", 
+    "Latitude" : "35.302937", 
+    "Longitude" : "-77.15546"
+},
+{ 
+    "Canonical Facility Name" : "Linda Woodman State Jail", 
+    "Latitude" : "31.43211", 
+    "Longitude" : "-97.72602"
+},
+{ 
+    "Canonical Facility Name" : "Joe Kegans State Jail", 
+    "Latitude" : "29.755578", 
+    "Longitude" : "-95.36531"
+},
+{ 
+    "Canonical Facility Name" : "Old Colony Correctional Center", 
+    "Latitude" : "41.979501", 
+    "Longitude" : "-70.97215"
+},
+{ 
+    "Canonical Facility Name" : "Coffee Correctional Facility", 
+    "Latitude" : "31.495983", 
+    "Longitude" : "-82.62928"
+},
+{ 
+    "Canonical Facility Name" : "Mountain View Correctional Institution", 
+    "Latitude" : "35.910932", 
+    "Longitude" : "-82.07366"
+},
+{ 
+    "Canonical Facility Name" : "York Correctional Institution", 
+    "Latitude" : "41.319649", 
+    "Longitude" : "-72.21064"
+},
+{ 
+    "Canonical Facility Name" : "High Desert State Prison (HDSP)", 
+    "Latitude" : "35.927901", 
+    "Longitude" : "-114.972061"
+},
+{ 
+    "Canonical Facility Name" : "Limestone Correctional Facility", 
+    "Latitude" : "34.815817", 
+    "Longitude" : "-86.76003"
+},
+{ 
+    "Canonical Facility Name" : "North Kern State Prison (NKSP)", 
+    "Latitude" : "35.774967", 
+    "Longitude" : "-119.23371"
+},
+{ 
+    "Canonical Facility Name" : "Iowa State Penitentiary", 
+    "Latitude" : "40.637694", 
+    "Longitude" : "-91.33866"
+},
+{ 
+    "Canonical Facility Name" : "Beckley Correctional Center", 
+    "Latitude" : "37.79064", 
+    "Longitude" : "-81.19958"
+},
+{ 
+    "Canonical Facility Name" : "California Medical Facility (CMF)", 
+    "Latitude" : "38.34896", 
+    "Longitude" : "-121.908324"
+},
+{ 
+    "Canonical Facility Name" : "Northeast Ohio Correctional Center", 
+    "Latitude" : "41.122524", 
+    "Longitude" : "-80.62043"
+},
+{ 
+    "Canonical Facility Name" : "Buster Cole State Jail", 
+    "Latitude" : "33.583772", 
+    "Longitude" : "-96.1818"
+},
+{ 
+    "Canonical Facility Name" : "Richard J. Donovan Correctional Facility (RJD)", 
+    "Latitude" : "32.572602", 
+    "Longitude" : "-116.918724"
+},
+{ 
+    "Canonical Facility Name" : "Edna Mahan Correctional Facility for Women", 
+    "Latitude" : "40.639546", 
+    "Longitude" : "-74.91292"
+},
+{ 
+    "Canonical Facility Name" : "Wabash Valley Correctional Facility", 
+    "Latitude" : "38.957093", 
+    "Longitude" : "-87.3793"
+},
+{ 
+    "Canonical Facility Name" : "Lakin Correctional Center", 
+    "Latitude" : "38.950609", 
+    "Longitude" : "-82.0603"
+},
+{ 
+    "Canonical Facility Name" : "Baskerville Correctional Center", 
+    "Latitude" : "36.694531", 
+    "Longitude" : "-78.28794"
+},
+{ 
+    "Canonical Facility Name" : "Howard R. Young Correctional Institution", 
+    "Latitude" : "39.738563", 
+    "Longitude" : "-75.54833"
+},
+{ 
+    "Canonical Facility Name" : "Denver Reception & Diagnostic Center", 
+    "Latitude" : "39.788236", 
+    "Longitude" : "-104.83034"
+},
+{ 
+    "Canonical Facility Name" : "East Moline Correctional Center", 
+    "Latitude" : "41.518733", 
+    "Longitude" : "-90.41788"
+},
+{ 
+    "Canonical Facility Name" : "Elayn Hunt Correctional Center", 
+    "Latitude" : "30.264611", 
+    "Longitude" : "-91.09595"
+},
+{ 
+    "Canonical Facility Name" : "Maryland Correctional Institution - Jessup", 
+    "Latitude" : "39.144807", 
+    "Longitude" : "-76.78767"
+},
+{ 
+    "Canonical Facility Name" : "Gaston Correctional Center", 
+    "Latitude" : "35.333668", 
+    "Longitude" : "-81.18303"
+},
+{ 
+    "Canonical Facility Name" : "Little Sandy Correctional Complex", 
+    "Latitude" : "38.089097", 
+    "Longitude" : "-83.09554"
+},
+{ 
+    "Canonical Facility Name" : "Central State Prison", 
+    "Latitude" : "32.806707", 
+    "Longitude" : "-83.691315"
+},
+{ 
+    "Canonical Facility Name" : "Central California Women's Facility (CCWF)", 
+    "Latitude" : "37.100417", 
+    "Longitude" : "-120.27864"
+},
+{ 
+    "Canonical Facility Name" : "Pam Lychner State Jail", 
+    "Latitude" : "29.951621", 
+    "Longitude" : "-95.26785"
+},
+{ 
+    "Canonical Facility Name" : "Eastham Unit", 
+    "Latitude" : "31.104197", 
+    "Longitude" : "-95.46434"
+},
+{ 
+    "Canonical Facility Name" : "Foothills Correctional Institution", 
+    "Latitude" : "35.742752", 
+    "Longitude" : "-81.71625"
+},
+{ 
+    "Canonical Facility Name" : "Upstate Correctional Facility", 
+    "Latitude" : "44.813419", 
+    "Longitude" : "-74.2772"
+},
+{ 
+    "Canonical Facility Name" : "Western New Mexico Correctional Facility", 
+    "Latitude" : "35.122129", 
+    "Longitude" : "-107.90777"
+},
+{ 
+    "Canonical Facility Name" : "John B. Connally Unit", 
+    "Latitude" : "28.779344", 
+    "Longitude" : "-97.85626"
+},
+{ 
+    "Canonical Facility Name" : "Clyde M. Johnston Unit", 
+    "Latitude" : "32.922912", 
+    "Longitude" : "-95.28299"
+},
+{ 
+    "Canonical Facility Name" : "Baltimore City Correctional Center", 
+    "Latitude" : "39.296507", 
+    "Longitude" : "-76.60693"
+},
+{ 
+    "Canonical Facility Name" : "William P. Hobby Unit", 
+    "Latitude" : "31.310649", 
+    "Longitude" : "-96.87859"
+},
+{ 
+    "Canonical Facility Name" : "Corrigan-Radgowski Correctional Center", 
+    "Latitude" : "41.457198", 
+    "Longitude" : "-72.11459"
+},
+{ 
+    "Canonical Facility Name" : "Tabor Correctional Institution", 
+    "Latitude" : "34.12483", 
+    "Longitude" : "-78.82187"
+},
+{ 
+    "Canonical Facility Name" : "Correctional Training Facility (CTF)", 
+    "Latitude" : "36.41176", 
+    "Longitude" : "-121.32617"
+},
+{ 
+    "Canonical Facility Name" : "Edinburgh Correctional Facility", 
+    "Latitude" : "39.366507", 
+    "Longitude" : "-85.9864"
+},
+{ 
+    "Canonical Facility Name" : "Elba Work Release Center", 
+    "Latitude" : "31.428389", 
+    "Longitude" : "-86.07271"
+},
+{ 
+    "Canonical Facility Name" : "Louisiana Correctional Institute for Women", 
+    "Latitude" : "30.264611", 
+    "Longitude" : "-91.09595"
+},
+{ 
+    "Canonical Facility Name" : "Wyoming Medium Correctional Institution", 
+    "Latitude" : "42.119328", 
+    "Longitude" : "-104.19228"
+},
+{ 
+    "Canonical Facility Name" : "New Haven Correctional Center", 
+    "Latitude" : "41.317197", 
+    "Longitude" : "-72.92798"
+},
+{ 
+    "Canonical Facility Name" : "Tallahatchie County Correctional Facility", 
+    "Latitude" : "34.015686", 
+    "Longitude" : "-90.39034"
+},
+{ 
+    "Canonical Facility Name" : "Southwestern Illinois Correctional Center", 
+    "Latitude" : "38.598175", 
+    "Longitude" : "-90.07575"
+},
+{ 
+    "Canonical Facility Name" : "Redgranite Correctional Institution", 
+    "Latitude" : "44.057375", 
+    "Longitude" : "-89.09788"
+},
+{ 
+    "Canonical Facility Name" : "James River Correctional Center", 
+    "Latitude" : "46.906983", 
+    "Longitude" : "-98.72826"
+},
+{ 
+    "Canonical Facility Name" : "Louisiana State Penitentiary", 
+    "Latitude" : "30.949066", 
+    "Longitude" : "-91.59294"
+},
+{ 
+    "Canonical Facility Name" : "Dr. Lane Murray Unit", 
+    "Latitude" : "31.390196", 
+    "Longitude" : "-97.799309"
+},
+{ 
+    "Canonical Facility Name" : "Hamilton Work Release Center", 
+    "Latitude" : "34.149717", 
+    "Longitude" : "-88.00384"
+},
+{ 
+    "Canonical Facility Name" : "Willacy County State Jail", 
+    "Latitude" : "26.500175", 
+    "Longitude" : "-97.81013"
+},
+{ 
+    "Canonical Facility Name" : "Wise Correctional Unit", 
+    "Latitude" : "36.952634", 
+    "Longitude" : "-82.46657"
+},
+{ 
+    "Canonical Facility Name" : "Nash Correctional Institution", 
+    "Latitude" : "35.993357", 
+    "Longitude" : "-77.96738"
+},
+{ 
+    "Canonical Facility Name" : "Mississippi State Penitentiary", 
+    "Latitude" : "33.922146", 
+    "Longitude" : "-90.54366"
+},
+{ 
+    "Canonical Facility Name" : "Marion Correctional Institution", 
+    "Latitude" : "35.709124", 
+    "Longitude" : "-82.01719"
+},
+{ 
+    "Canonical Facility Name" : "Larry Gist State Jail", 
+    "Latitude" : "30.009609", 
+    "Longitude" : "-94.11401"
+},
+{ 
+    "Canonical Facility Name" : "Jerry H. Hodge Unit", 
+    "Latitude" : "31.79364", 
+    "Longitude" : "-95.16761"
+},
+{ 
+    "Canonical Facility Name" : "Pulaski State Prison", 
+    "Latitude" : "32.270314", 
+    "Longitude" : "-83.48517"
+},
+{ 
+    "Canonical Facility Name" : "Boston Pre-Release Center", 
+    "Latitude" : "42.284678", 
+    "Longitude" : "-71.13052"
+},
+{ 
+    "Canonical Facility Name" : "Livesay Correctional Institution", 
+    "Latitude" : "34.980636", 
+    "Longitude" : "-81.95665"
+},
+{ 
+    "Canonical Facility Name" : "Alex City Work Release Center", 
+    "Latitude" : "32.903432", 
+    "Longitude" : "-85.92669"
+},
+{ 
+    "Canonical Facility Name" : "Olympic Corrections Center", 
+    "Latitude" : "47.838423", 
+    "Longitude" : "-124.35888"
+},
+{ 
+    "Canonical Facility Name" : "Bibb Correctional Facility", 
+    "Latitude" : "32.915182", 
+    "Longitude" : "-87.21488"
+},
+{ 
+    "Canonical Facility Name" : "Mule Creek State Prison (MCSP)", 
+    "Latitude" : "38.346132", 
+    "Longitude" : "-120.94516"
+},
+{ 
+    "Canonical Facility Name" : "Northeast Oklahoma Correctional Center", 
+    "Latitude" : "36.631673", 
+    "Longitude" : "-95.17303"
+},
+{ 
+    "Canonical Facility Name" : "Hamilton Aged & Infirmed", 
+    "Latitude" : "34.149717", 
+    "Longitude" : "-88.00384"
+},
+{ 
+    "Canonical Facility Name" : "Dempsie Henley State Jail", 
+    "Latitude" : "30.044219", 
+    "Longitude" : "-94.88864"
+},
+{ 
+    "Canonical Facility Name" : "Green Rock Correctional Center", 
+    "Latitude" : "36.836822", 
+    "Longitude" : "-79.45193"
+},
+{ 
+    "Canonical Facility Name" : "California Institution for Men (CIM)", 
+    "Latitude" : "34.015963", 
+    "Longitude" : "-117.68737"
+},
+{ 
+    "Canonical Facility Name" : "Osborn Correctional Institution", 
+    "Latitude" : "41.995851", 
+    "Longitude" : "-72.45336"
+},
+{ 
+    "Canonical Facility Name" : "Keen Mountain Correctional Center", 
+    "Latitude" : "37.223011", 
+    "Longitude" : "-82.00538"
+},
+{ 
+    "Canonical Facility Name" : "Lunenburg Correctional Center", 
+    "Latitude" : "36.987595", 
+    "Longitude" : "-78.23285"
+},
+{ 
+    "Canonical Facility Name" : "Ernestine Glossbrenner Unit", 
+    "Latitude" : "27.683506", 
+    "Longitude" : "-98.38142"
+},
+{ 
+    "Canonical Facility Name" : "Darrington Unit", 
+    "Latitude" : "29.429256", 
+    "Longitude" : "-95.45332"
+},
+{ 
+    "Canonical Facility Name" : "Salinas Valley State Prison (SVSP)", 
+    "Latitude" : "36.41176", 
+    "Longitude" : "-121.32617"
+},
+{ 
+    "Canonical Facility Name" : "Harnett Correctional Institution", 
+    "Latitude" : "35.396654", 
+    "Longitude" : "-78.83852"
+},
+{ 
+    "Canonical Facility Name" : "South Dakota State Penitentiary", 
+    "Latitude" : "43.674582", 
+    "Longitude" : "-96.79134"
+},
+{ 
+    "Canonical Facility Name" : "Rutherford Correctional Center", 
+    "Latitude" : "35.360536", 
+    "Longitude" : "-81.92506"
+},
+{ 
+    "Canonical Facility Name" : "Kate Barnard Community Corrections Center", 
+    "Latitude" : "35.504109", 
+    "Longitude" : "-97.47889"
+},
+{ 
+    "Canonical Facility Name" : "Pleasant Valley State Prison (PVSP)", 
+    "Latitude" : "36.194736", 
+    "Longitude" : "-120.30865"
+},
+{ 
+    "Canonical Facility Name" : "James Lynaugh Unit", 
+    "Latitude" : "30.877528", 
+    "Longitude" : "-102.852"
+},
+{ 
+    "Canonical Facility Name" : "Whiteville Correctional Facility", 
+    "Latitude" : "35.35001", 
+    "Longitude" : "-89.15508"
+},
+{ 
+    "Canonical Facility Name" : "Eastern Kentucky Correctional Complex", 
+    "Latitude" : "37.932283", 
+    "Longitude" : "-83.23821"
+},
+{ 
+    "Canonical Facility Name" : "Montgomery State Prison", 
+    "Latitude" : "32.186824", 
+    "Longitude" : "-82.59171"
+},
+{ 
+    "Canonical Facility Name" : "Wallens Ridge State Prison", 
+    "Latitude" : "36.851953", 
+    "Longitude" : "-82.77056"
+},
+{ 
+    "Canonical Facility Name" : "Indiana State Prison", 
+    "Latitude" : "41.707539", 
+    "Longitude" : "-86.87902"
+},
+{ 
+    "Canonical Facility Name" : "Bertie Correctional Institution", 
+    "Latitude" : "36.015391", 
+    "Longitude" : "-76.9349"
+},
+{ 
+    "Canonical Facility Name" : "Lansing Correctional Facility", 
+    "Latitude" : "39.258624", 
+    "Longitude" : "-94.89859"
+},
+{ 
+    "Canonical Facility Name" : "Daniel Webster Wallace Unit", 
+    "Latitude" : "32.368824", 
+    "Longitude" : "-100.93689"
+},
+{ 
+    "Canonical Facility Name" : "Central Prison", 
+    "Latitude" : "35.758268", 
+    "Longitude" : "-78.71783"
+},
+{ 
+    "Canonical Facility Name" : "Frank Lee Youth Center", 
+    "Latitude" : "32.612619", 
+    "Longitude" : "-86.39497"
+},
+{ 
+    "Canonical Facility Name" : "Kentucky State Penitentiary", 
+    "Latitude" : "37.051386", 
+    "Longitude" : "-88.03613"
+},
+{ 
+    "Canonical Facility Name" : "Maryland Correctional Institution - Hagerstown", 
+    "Latitude" : "39.144807", 
+    "Longitude" : "-76.78767"
+},
+{ 
+    "Canonical Facility Name" : "Dixon Correctional Institute", 
+    "Latitude" : "30.826285", 
+    "Longitude" : "-91.22812"
+},
+{ 
+    "Canonical Facility Name" : "Price Daniel Unit", 
+    "Latitude" : "32.760229", 
+    "Longitude" : "-100.95344"
+},
+{ 
+    "Canonical Facility Name" : "Huntsville Unit", 
+    "Latitude" : "30.78128", 
+    "Longitude" : "-95.59527"
+},
+{ 
+    "Canonical Facility Name" : "Milwaukee Women's Correctional Center", 
+    "Latitude" : "43.072062", 
+    "Longitude" : "-87.9103"
+},
+{ 
+    "Canonical Facility Name" : "Lemon Creek Correctional Center", 
+    "Latitude" : "58.358599", 
+    "Longitude" : "-134.54749"
+},
+{ 
+    "Canonical Facility Name" : "California Men's Colony (CMC)", 
+    "Latitude" : "35.221085", 
+    "Longitude" : "-120.636399"
+},
+{ 
+    "Canonical Facility Name" : "Macon State Prison", 
+    "Latitude" : "32.329164", 
+    "Longitude" : "-84.07988"
+},
+{ 
+    "Canonical Facility Name" : "Southern State Correctional Facility", 
+    "Latitude" : "39.219301", 
+    "Longitude" : "-74.94016"
+},
+{ 
+    "Canonical Facility Name" : "Pondville Correctional Center", 
+    "Latitude" : "42.111836", 
+    "Longitude" : "-71.32855"
+},
+{ 
+    "Canonical Facility Name" : "Central Mississippi Correctional Facility", 
+    "Latitude" : "32.280746", 
+    "Longitude" : "-90.10708"
+},
+{ 
+    "Canonical Facility Name" : "Brooklyn Correctional Institution", 
+    "Latitude" : "41.782474", 
+    "Longitude" : "-71.95989"
+},
+{ 
+    "Canonical Facility Name" : "Dolph Briscoe Unit", 
+    "Latitude" : "28.728991", 
+    "Longitude" : "-99.23388"
+},
+{ 
+    "Canonical Facility Name" : "Franklin Correctional Center", 
+    "Latitude" : "35.954331", 
+    "Longitude" : "-78.25342"
+},
+{ 
+    "Canonical Facility Name" : "Mike Durfee State Prison", 
+    "Latitude" : "42.861759", 
+    "Longitude" : "-97.93431"
+},
+{ 
+    "Canonical Facility Name" : "Bridgeport Correctional Center", 
+    "Latitude" : "33.197313", 
+    "Longitude" : "-97.80932"
+},
+{ 
+    "Canonical Facility Name" : "Denmar Correctional Center", 
+    "Latitude" : "38.114627", 
+    "Longitude" : "-80.22808"
+},
+{ 
+    "Canonical Facility Name" : "James V. Allred Unit", 
+    "Latitude" : "33.958681", 
+    "Longitude" : "-98.68492"
+},
+{ 
+    "Canonical Facility Name" : "Dan River Prison Work Farm", 
+    "Latitude" : "36.461871", 
+    "Longitude" : "-79.26388"
+},
+{ 
+    "Canonical Facility Name" : "Bledsoe County Correctional Complex", 
+    "Latitude" : "35.635097", 
+    "Longitude" : "-85.17161"
+},
+{ 
+    "Canonical Facility Name" : "Nebraska State Penitentiary", 
+    "Latitude" : "40.789051", 
+    "Longitude" : "-96.69589"
+},
+{ 
+    "Canonical Facility Name" : "J.B. Wheeler State Jail", 
+    "Latitude" : "34.191002", 
+    "Longitude" : "-101.72506"
+},
+{ 
+    "Canonical Facility Name" : "Alfred D. Hughes Unit", 
+    "Latitude" : "31.390196", 
+    "Longitude" : "-97.799309"
+},
+{ 
+    "Canonical Facility Name" : "Allen Correctional Center", 
+    "Latitude" : "30.494379", 
+    "Longitude" : "-92.85992"
+},
+{ 
+    "Canonical Facility Name" : "Patuxent Institution", 
+    "Latitude" : "39.144807", 
+    "Longitude" : "-76.78767"
+},
+{ 
+    "Canonical Facility Name" : "Polk Correctional Institution", 
+    "Latitude" : "36.138298", 
+    "Longitude" : "-78.75882"
+},
+{ 
+    "Canonical Facility Name" : "Newton Correctional Facility", 
+    "Latitude" : "41.702148", 
+    "Longitude" : "-93.04467"
+},
+{ 
+    "Canonical Facility Name" : "Otero County Prison Facility", 
+    "Latitude" : "32.031665", 
+    "Longitude" : "-106.400486"
+},
+{ 
+    "Canonical Facility Name" : "North Central Correctional Facility", 
+    "Latitude" : "42.395906", 
+    "Longitude" : "-94.63294"
+},
+{ 
+    "Canonical Facility Name" : "Caswell Correctional Center", 
+    "Latitude" : "36.461871", 
+    "Longitude" : "-79.26388"
+},
+{ 
+    "Canonical Facility Name" : "Columbus Correctional Institution", 
+    "Latitude" : "34.290716", 
+    "Longitude" : "-78.699417"
+},
+{ 
+    "Canonical Facility Name" : "Penitentiary of New Mexico", 
+    "Latitude" : "35.893597", 
+    "Longitude" : "-106.007499"
+},
+{ 
+    "Canonical Facility Name" : "Hill Correctional Center", 
+    "Latitude" : "40.932207", 
+    "Longitude" : "-90.214412"
+},
+{ 
+    "Canonical Facility Name" : "George Beto Unit", 
+    "Latitude" : "31.794191", 
+    "Longitude" : "-95.661964"
+},
+{ 
+    "Canonical Facility Name" : "Dillwyn Correctional Center", 
+    "Latitude" : "37.529284", 
+    "Longitude" : "-78.49082"
+},
+{ 
+    "Canonical Facility Name" : "Ellen Halbert Unit", 
+    "Latitude" : "30.767327", 
+    "Longitude" : "-98.30109"
+},
+{ 
+    "Canonical Facility Name" : "Chippewa Valley Correctional Treatment Facility", 
+    "Latitude" : "44.932711", 
+    "Longitude" : "-91.38877"
+},
+{ 
+    "Canonical Facility Name" : "Northpoint Training Center", 
+    "Latitude" : "37.754255", 
+    "Longitude" : "-84.76904"
+},
+{ 
+    "Canonical Facility Name" : "East Mississippi Correctional Facility", 
+    "Latitude" : "32.358891", 
+    "Longitude" : "-88.7494"
+},
+{ 
+    "Canonical Facility Name" : "Mobile Work Release Center", 
+    "Latitude" : "30.737405", 
+    "Longitude" : "-88.08201"
+},
+{ 
+    "Canonical Facility Name" : "Baldwin State Prison", 
+    "Latitude" : "33.040103", 
+    "Longitude" : "-83.2182"
+},
+{ 
+    "Canonical Facility Name" : "ATEF", 
+    "Latitude" : "33.201789", 
+    "Longitude" : "-86.61584"
+},
+{ 
+    "Canonical Facility Name" : "California Institution for Women (CIW)", 
+    "Latitude" : "33.903802999999996", 
+    "Longitude" : "-117.60221"
+},
+{ 
+    "Canonical Facility Name" : "Kilby Correctional Facility", 
+    "Latitude" : "32.373714", 
+    "Longitude" : "-86.16443"
+},
+{ 
+    "Canonical Facility Name" : "Lawrenceville Correctional Center", 
+    "Latitude" : "36.722176", 
+    "Longitude" : "-77.81269"
+},
+{ 
+    "Canonical Facility Name" : "Bell County Forestry Camp", 
+    "Latitude" : "36.750028", 
+    "Longitude" : "-83.72023"
+},
+{ 
+    "Canonical Facility Name" : "El Dorado Correctional Facility", 
+    "Latitude" : "37.830417", 
+    "Longitude" : "-96.84294"
+},
+{ 
+    "Canonical Facility Name" : "North Carolina Correctional Institution for Women", 
+    "Latitude" : "35.767829", 
+    "Longitude" : "-78.5861"
+},
+{ 
+    "Canonical Facility Name" : "Robinson Correctional Institution", 
+    "Latitude" : "41.987238", 
+    "Longitude" : "-72.56365"
+},
+{ 
+    "Canonical Facility Name" : "Missouri River Correctional Center", 
+    "Latitude" : "46.980475", 
+    "Longitude" : "-100.520063"
+},
+{ 
+    "Canonical Facility Name" : "Central Reception and Assignment Facility", 
+    "Latitude" : "40.264708", 
+    "Longitude" : "-74.82295"
+},
+{ 
+    "Canonical Facility Name" : "Roederer Correctional Complex", 
+    "Latitude" : "38.407833", 
+    "Longitude" : "-85.38475"
+},
+{ 
+    "Canonical Facility Name" : "Southern Maryland Pre-Release Unit", 
+    "Latitude" : "38.458322", 
+    "Longitude" : "-76.83947"
+},
+{ 
+    "Canonical Facility Name" : "Martinsburg Correctional Center", 
+    "Latitude" : "39.463781", 
+    "Longitude" : "-77.95767"
+},
+{ 
+    "Canonical Facility Name" : "Greene Correctional Institution", 
+    "Latitude" : "35.481503", 
+    "Longitude" : "-77.58718"
+},
+{ 
+    "Canonical Facility Name" : "Gordon Correctional Center", 
+    "Latitude" : "46.233591", 
+    "Longitude" : "-91.81795"
+},
+{ 
+    "Canonical Facility Name" : "Lee State Prison", 
+    "Latitude" : "31.714526", 
+    "Longitude" : "-84.16931"
+},
+{ 
+    "Canonical Facility Name" : "Augusta Correctional Center", 
+    "Latitude" : "38.085244", 
+    "Longitude" : "-79.36209"
+},
+{ 
+    "Canonical Facility Name" : "Sheridan Correctional Center", 
+    "Latitude" : "41.527585", 
+    "Longitude" : "-88.68292"
+},
+{ 
+    "Canonical Facility Name" : "Orange Correctional Center", 
+    "Latitude" : "36.079726", 
+    "Longitude" : "-79.09459"
+},
+{ 
+    "Canonical Facility Name" : "California Correctional Institution (CCI)", 
+    "Latitude" : "35.132673", 
+    "Longitude" : "-118.50781"
+},
+{ 
+    "Canonical Facility Name" : "Red Onion State Prison", 
+    "Latitude" : "37.10297", 
+    "Longitude" : "-82.59626"
+},
+{ 
+    "Canonical Facility Name" : "Buckingham Correctional Center", 
+    "Latitude" : "37.529284", 
+    "Longitude" : "-78.49082"
+},
+{ 
+    "Canonical Facility Name" : "Wilkes Correctional Center", 
+    "Latitude" : "36.169604", 
+    "Longitude" : "-81.11615"
+},
+{ 
+    "Canonical Facility Name" : "Catawba Correctional Center", 
+    "Latitude" : "35.653437", 
+    "Longitude" : "-81.23443"
+}
+]
